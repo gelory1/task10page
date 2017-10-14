@@ -1,0 +1,285 @@
+body{
+    overflow-x: hidden;
+}
+.header{
+    width: 100vw;
+    padding-left:15vw;
+    padding-right: 15vw;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    background-color: rgb(29,122,217);
+}
+.header-tel{
+    width: 20vw;
+    padding:.5vw 0;
+    color: #FFFFFF;
+    text-align: left;
+}
+.header-sign{
+    width: 12vw;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.header-signin{
+    padding: .5vw;
+    width: 4vw;
+    border-left: thin solid #FFFFFF;
+    color: #FFFFFF;
+    text-align: center;
+}
+.header-signup{
+    padding: .5vw 1vw;
+    width: 8vw;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+.opts{
+    width: 100vw;
+    padding: 2vw 15vw 2vw 50vw;
+    background-color: rgb(249,249,249);
+    display: flex;
+    flex-flow: nowrap row;
+    justify-content: space-between;
+}
+.btn-white{
+    background-color: #FFFFFF;
+    box-shadow: .05vw .05vw .025vw #cccccc;
+}
+.steps{
+    width: 40vw;
+    padding: 3vw 0 2vw 0;
+    margin-right: 15vw;
+    float: right;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    text-align: center;
+}
+.step{
+    width: 10vw;
+    text-align: center;
+    padding-top: 2vw;
+    border-top: solid rgb(204,204,204);
+    color: rgb(204,204,204);
+    position: relative;
+}
+.text-orange{
+    border-top: solid rgb(255,127,2);
+    color: rgb(255,127,2);
+}
+.circ-num{
+    width: 2em;
+    height:2em;
+    border-radius: 50%;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: rgb(204,204,204);
+    padding-top: .3em;
+    position: absolute;
+    top: -1em;
+    left: 5vw;
+    margin-left: -1em;
+}
+.circ-orange{
+    background-color: rgb(255,127,2);
+}
+.ps{
+    width: 85vw;
+    border-left: 3px solid rgb(29,122,217);
+    margin: 1vw 0 1vw 15vw;
+    display: inline-block;
+    padding-left: 1vw;
+    font-size: 1.5vw;
+}
+.vari{
+    margin: 0 15vw;
+    width: 70vw;
+    padding:1vw;
+    height: 4vw;
+    background-color: rgb(244,244,244);
+}
+.vari-img1{
+    width: 2vw;
+    height: 2vw;
+    background: url("images/xiangxing_01.png") no-repeat center ;
+    background-size: 100%;
+    float: left;
+}
+.vari-img2{
+    width: 2vw;
+    height: 2vw;
+    background: url("images/size_02.png") no-repeat center ;
+    background-size: 100%;
+    float: left;
+}
+.vari-img3{
+    width: 2vw;
+    height: 2vw;
+    background: url("images/caizhi_03.png") no-repeat center ;
+    background-size: 100%;
+    float: left;
+}
+.vari-text{
+    padding-left: 1vw;
+    color: rgb(29,122,217);
+    float: left;
+    line-height: 2vw;
+}
+.cont-box{
+    margin: 0 15vw;
+    width: 70vw;
+    padding: 1vw 2vw;
+    border: thin solid #eeeeee;
+    position: relative;
+}
+.se-box{
+    position: absolute;
+    width: 8vw;
+    right: 5vw;
+}
+.trangle{
+    width: 0;
+    height: 0;
+    border-left: .3vw solid transparent;
+    border-right: .3vw solid transparent;
+    border-top: .6vw solid white;
+    background-color: rgb(29,122,217);
+}
+.trangle-box{
+    background-color: rgb(29,122,217);
+    width: 2vw;
+    padding: .65vw;
+    border-radius: 10%;
+    position: absolute;
+    right: .4vw;
+    top: .4vw;
+    z-index: 0;
+}
+.selectcont{
+    border: .05em solid #cccccc;
+    border-radius: 5px;
+    width: 8vw;
+    padding: .5vw;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    font-weight: lighter;
+    color: #999999;
+}
+.inpt{
+    border: thin solid #cccccc;
+    background-color: #FFFFFF;
+    width: 5vw;
+}
+.radio-input{
+    padding: 1vw;
+    font-weight: lighter;
+}
+input{
+    background-color: rgb(29,122,217);
+}
+.nextstep-box{
+    width: 70vw;
+    margin: 0 15vw;
+    padding: 10vw 0;
+    text-align: center;
+    border: thin solid #cccccc;
+}
+.radio-box{
+    margin-left: .5vw;
+   display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    padding-right: 2vw;
+}
+.radio-check {
+    position: relative;
+    height: 3vw;
+}
+.radio-check > input {
+    width: 2vw;
+    height:2vw;
+    opacity: 0;
+}
+.radio-check > label {
+    line-height: 1vw;
+    font-weight: lighter;
+    position: relative;
+    left: -2vw;
+}
+.radio-check > label:before {
+    content: '';
+    position: absolute;
+    left: -1.5vw;
+    top: 0;
+    display: inline-block;
+    width: 1vw;
+    height: 1vw;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+}
+.radio-check > label:after {
+    content: '';
+    position: absolute;
+    left: -1.15vw;
+    top: .3vw;
+    display: inline-block;
+    width: .3vw;
+    height: .3vw;
+    border-radius: 50%;
+}
+.radio-check input[type='radio']:checked + label:before {
+    border-color: #cccccc;
+    background: rgb(29,122,217);
+}
+.radio-check input[type='radio']:checked + label:after {
+    background: #FFFFFF;
+}
+.adv-box{
+    width: 100vw;
+    padding: 5vw 15vw;
+    display: flex;
+    flex-flow: nowrap row;
+    justify-content: space-between;
+    color: #999999;
+}
+.adv-min{
+    display: flex;
+    flex-flow: column nowrap;
+}
+.adv-min-top,.adv-min-bottom{
+
+    display: flex;
+    flex-flow: nowrap row;
+}
+.adv-min-top{
+    width: 15vw;
+    justify-content: space-between;
+}
+.adv-min-bottom{
+    width: 9.4vw;
+    justify-content: space-between;
+}
+.adv-right{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+.adv-right-img{
+    width: 4vw;
+    padding-bottom: 4vw;
+    background: url("images/定制箱_03.png") no-repeat center;
+    background-size: 100%;
+}
+.footer{
+    width: 100vw;
+    background-color: rgb(29,122,217);
+    color: #FFFFFF;
+    padding: .5vw 30vw;
+    display: flex;
+    flex-flow: nowrap row;
+    justify-content: space-between;
+    font-size: .8vw;
+}
+
