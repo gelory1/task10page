@@ -147,33 +147,35 @@ body{
 }
 .se-box{
     position: absolute;
-    width: 8vw;
-    right: 5vw;
+    width: 8em;
+    right: 5em;
     font-size: 1vw;
+    height: 2.5em;
 }
 .trangle{
     width: 0;
     height: 0;
-    border-left: .3vw solid transparent;
-    border-right: .3vw solid transparent;
-    border-top: .6vw solid white;
+    border-left: .3em solid transparent;
+    border-right: .3em solid transparent;
+    border-top: .6em solid white;
     background-color: rgb(29,122,217);
 }
 .trangle-box{
     background-color: rgb(29,122,217);
-    width: 2vw;
-    padding: .65vw;
+    width: 2em;
+    padding: .65em;
     border-radius: 10%;
     position: absolute;
-    right: .3vw;
-    top: .3vw;
+    top: 50%;
+    margin-top: -.95em;
+    right: .5em;
     z-index: 0;
 }
 .selectcont{
     border: .05em solid #cccccc;
     border-radius: 5px;
-    width: 8vw;
-    padding: .5vw;
+    width: 8em;
+    padding: .5em;
     -moz-appearance:none;
     -webkit-appearance:none;
     font-weight: lighter;
@@ -292,7 +294,7 @@ input{
     font-size: .8vw;
     text-align: center;
 }
-@media screen and (max-width: 700px){
+@media screen and (max-width: 750px){
     .opts{
         padding: 2vw 15vw;
     }
@@ -344,16 +346,6 @@ input{
     .radio-box{
         height: 5vw;
     }
-    .se-box{
-        width: 10vw;
-    }
-    .trangle-box{
-        right: .4vw;
-        top: .8vw;
-    }
-    .selectcont{
-        width: 10vw;
-    }
     .radio-box{
         display: inline-block;
     }
@@ -382,5 +374,34 @@ input{
     .adv-right-img{
         width: 8vw;
         height: 8vw;
+    }
+}
+@media screen and (max-width: 500px){
+    .se-box{
+        width: 6em;
+        top: 3vw;
+        right: 1em;
+        height: 1.25em;
+    }
+    .trangle{
+        border-left: .15em solid transparent;
+        border-right: .15em solid transparent;
+        border-top: .3em solid white;
+    }
+    .trangle-box{
+        width: 1em;
+        padding: .325em;
+        margin-top: -.2em;
+        right: .25em;
+    }
+    .selectcont{
+        width: 6em;
+        padding: .25em;
+    }
+    .radio-check{
+        padding: 3.5vw 0;
+    }
+    .inpt{
+        width: 8vw;
     }
 }
